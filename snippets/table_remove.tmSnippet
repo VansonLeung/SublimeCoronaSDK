@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>table.remove(${1:table_name}, ${2:position_to_remove})</string>
+	<key>name</key>
+	<string>table.remove</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>table.remove</string>
+	<key>uuid</key>
+	<string>615385B9-96C6-4127-9B35-7F1176D468E1</string>
+</dict>
+</plist>

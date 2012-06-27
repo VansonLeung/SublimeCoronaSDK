@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>widget.newTabBar(${1:tabBarOptions})
+</string>
+	<key>name</key>
+	<string>widget.newTabBar</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>widget.newTabBar</string>
+	<key>uuid</key>
+	<string>77A920B4-7102-493D-B75A-AC3956905E29</string>
+</dict>
+</plist>

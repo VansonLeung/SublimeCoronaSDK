@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>tabBarOptions = {
+			top = ${1:xPos},
+			left = ${2:yPos},		  	buttons = ${3:tabsTable},			bg = "${4:ImageName}",			width = ${5:width},			height = ${6:height},
+},
+</string>
+	<key>name</key>
+	<string>tabBarOptions</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>tabBarOptions</string>
+	<key>uuid</key>
+	<string>E9184FFF-4B35-41F7-B74A-2E3E8492AB6C</string>
+</dict>
+</plist>

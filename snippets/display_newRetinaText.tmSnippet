@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>display.newRetinaText(${1:[parentGroup], }"${2:string}", ${3:xPos}, ${4:yPos}, ${5:paragraphWidth}, ${6:paragraphHeight}, ${7:fontName}, ${8:fontSize});</string>
+	<key>name</key>
+	<string>display.newRetinaText</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>display.newRetinaText</string>
+	<key>uuid</key>
+	<string>FCF90E29-2121-4FAB-8BB6-F57AABCE297C</string>
+</dict>
+</plist>

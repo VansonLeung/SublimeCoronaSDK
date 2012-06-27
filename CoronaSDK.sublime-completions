@@ -1,0 +1,2466 @@
+{
+    "completions": [
+        {
+            "contents": "ads.hide($0)", 
+            "trigger": "ads.hide()"
+        }, 
+        {
+            "contents": "ads.init(\"${1:adsProvider}\", ${2:appID})", 
+            "trigger": "ads.init()"
+        }, 
+        {
+            "contents": "ads.show(${1:addUnitType}, {x = ${2:xPos}, y = ${3:yPos}, interval = ${4:seconds}, testMode = ${5:true/false} })", 
+            "trigger": "ads.show()"
+        },
+        {
+            "contents": "analytics.init(${1:appKey})", 
+            "trigger": "analytics.init()"
+        }, 
+        {
+            "contents": "analytics.logEvent(${1:eventID})", 
+            "trigger": "analytics.logEvent()"
+        }, 
+        {
+            "contents": "and", 
+            "trigger": "and"
+        }, 
+        {
+            "contents": "assert(${1:value}, \"${2:message}\")", 
+            "trigger": "assert()"
+        }, 
+        {
+            "contents": "audio.dispose(${1:audioHandle})", 
+            "trigger": "audio.dispose()"
+        }, 
+        {
+            "contents": "audio.fade({ channel = ${1:channel}, time = ${2:time}, volume = ${3:targetVolume} } )", 
+            "trigger": "audio.fade()"
+        }, 
+        {
+            "contents": "audio.fadeOut({channel = ${1:channel}, time = ${2:time}})", 
+            "trigger": "audio.fadeOut()"
+        }, 
+        {
+            "contents": "audio.findFreeChannel(${1:startChannel})", 
+            "trigger": "audio.findFreeChannel()"
+        }, 
+        {
+            "contents": "audio.freeChannels", 
+            "trigger": "audio.freeChannels"
+        }, 
+        {
+            "contents": "audio.getDuration(${1:audioHandle})", 
+            "trigger": "audio.getDuration()"
+        }, 
+        {
+            "contents": "audio.getMaxVolume({ channel = {$1:channel} })", 
+            "trigger": "audio.getMaxVolume()"
+        }, 
+        {
+            "contents": "audio.getMinVolume({ channel = {$1:channel} })", 
+            "trigger": "audio.getMinVolume()"
+        }, 
+        {
+            "contents": "audio.getVolume({ channel = {$1:channel} })", 
+            "trigger": "audio.getVolume()"
+        }, 
+        {
+            "contents": "audio.isChannelActive({$1:channel})", 
+            "trigger": "audio.isChannelActive()"
+        }, 
+        {
+            "contents": "audio.isChannelPaused({$1:channel})", 
+            "trigger": "audio.isChannelPaused()"
+        }, 
+        {
+            "contents": "audio.isChannelPlaying({$1:channel})", 
+            "trigger": "audio.isChannelPlaying()"
+        }, 
+        {
+            "contents": "audio.loadSound(\"{$1:fileName}\", {$2:baseDir})", 
+            "trigger": "audio.loadSound()"
+        }, 
+        {
+            "contents": "audio.loadStream(\"{$1:fileName}\", {$2:baseDir})", 
+            "trigger": "audio.loadStream()"
+        }, 
+        {
+            "contents": "audio.pause({$1:channel})", 
+            "trigger": "audio.pause()"
+        }, 
+        {
+            "contents": "audio.play(${1:audioHandle}, { channel = ${2:channel}, loops = ${3:loop}, duration = ${4:duration}, fadeIn = ${5:fadeIn}, onComplete = ${6:listener} } )", 
+            "trigger": "audio.play()"
+        }, 
+        {
+            "contents": "audio.reserveChannels(${1:channels})", 
+            "trigger": "audio.reserveChannels()"
+        }, 
+        {
+            "contents": "audio.reservedChannels", 
+            "trigger": "audio.reservedChannelss"
+        }, 
+        {
+            "contents": "audio.resume(${1:channel})", 
+            "trigger": "audio.resume()"
+        }, 
+        {
+            "contents": "audio.rewind(${1:audioHandle}, { channel = ${2:channel} })", 
+            "trigger": "audio.rewind()"
+        }, 
+        {
+            "contents": "audio.seek(${1:time}, ${2:audioHandle}, { channel = ${3:channel}})", 
+            "trigger": "audio.seek()"
+        }, 
+        {
+            "contents": "audio.setMaxVolume(${1:volume}, { channel = ${2:channel}})", 
+            "trigger": "audio.setMaxVolume()"
+        }, 
+        {
+            "contents": "audio.setMinVolume(${1:volume}, { channel = ${2:channel}})", 
+            "trigger": "audio.setMinVolume()"
+        }, 
+        {
+            "contents": "audio.setVolume(${1:volume}, { channel = ${2:channel}})", 
+            "trigger": "audio.setVolume()"
+        }, 
+        {
+            "contents": "audio.stop(${1:channel})", 
+            "trigger": "audio.stop()"
+        }, 
+        {
+            "contents": "audio.stopWithDelay(${1:duration}, { channel = ${2:channel}})", 
+            "trigger": "audio.stopWithDelay()"
+        }, 
+        {
+            "contents": "audio.totalChannels", 
+            "trigger": "audio.totalChannels"
+        }, 
+        {
+            "contents": "audio.unreservedFreeChannels", 
+            "trigger": "audio.unreservedFreeChannels"
+        }, 
+        {
+            "contents": "audio.unreservedUsedChannels", 
+            "trigger": "audio.unreservedUsedChannels"
+        }, 
+        {
+            "contents": "audio.usedChannels", 
+            "trigger": "audio.usedChannels"
+        },
+        {
+            "contents": "audio.supportsSessionProperty", 
+            "trigger": "audio.supportsSessionProperty"
+        },
+        {
+            "contents": "audio.setSessionProperty(${1:propertyName}, ${1:propertyValue})", 
+            "trigger": "audio.setSessionProperty()"
+        },
+        {
+            "contents": "audio.getSessionProperty(${1:propertyName})", 
+            "trigger": "audio.getSessionProperty()"
+        },
+        {
+            "contents": "audio.ActiveMode", 
+            "trigger": "audio.ActiveMode"
+        },
+        {
+            "contents": "audio.MixMode", 
+            "trigger": "audio.MixMode"
+        },
+        {
+            "contents": "audio.OverrideMixWithOthers", 
+            "trigger": "audio.OverrideMixWithOthers"
+        },
+        {
+            "contents": "audio.OtherAudioIsPlaying", 
+            "trigger": "audio.OtherAudioIsPlaying"
+        },
+        {
+            "contents": "audio.OtherMixableAudioShouldDuck", 
+            "trigger": "audio.OtherMixableAudioShouldDuck"
+        },
+        {
+            "contents": "audio.AmbientMixMode", 
+            "trigger": "audio.AmbientMixMode"
+        },
+        {
+            "contents": "audio.SoloAmbientMixMode", 
+            "trigger": "audio.SoloAmbientMixMode"
+        },
+        {
+            "contents": "audio.MediaPlaybackMixMode", 
+            "trigger": "audio.MediaPlaybackMixMode"
+        },
+        {
+            "contents": "audio.RecordAudioMixMode", 
+            "trigger": "audio.RecordAudioMixMode"
+        },
+        {
+            "contents": "audio.PlayAndRecordMixMode", 
+            "trigger": "audio.PlayAndRecordMixMode"
+        },
+        {
+            "contents": "angularDamping = ${1:number}", 
+            "trigger": "angularDamping"
+        },
+        {
+            "contents": "angularVelocity = ${1:number}", 
+            "trigger": "angularVelocity"
+        },
+        {
+            "contents": "bodyType = \"${1:static, dynamic, kinematic}\"", 
+            "trigger": "bodyType"
+        },
+        {
+            "contents": "credits.init(\"${1:appID}\", ${2:uid}, ${3:listener} )", 
+            "trigger": "credits.init()"
+        },
+        {
+            "contents": "credits.requestUpdate($0)", 
+            "trigger": "credits.requestUpdate()"
+        },
+        {
+            "contents": "credits.showOffers($0)", 
+            "trigger": "credits.showOffers()"
+        },
+        {
+            "contents": "isAwake = ${1:BOOL}", 
+            "trigger": "isAwake"
+        },  
+        {
+            "contents": "isBodyActive = ${1:BOOL}", 
+            "trigger": "isBodyActive"
+        },
+        {
+            "contents": "isBullet = ${1:BOOL}", 
+            "trigger": "isBullet"
+        },
+        {
+            "contents": "isFixedRotation = ${1:BOOL}", 
+            "trigger": "isFixedRotation"
+        },
+        {
+            "contents": "isSleepingAllowed = ${1:BOOL}", 
+            "trigger": "isSleepingAllowed"
+        },
+        {
+            "contents": "linearDamping = ${1:number}", 
+            "trigger": "linearDamping"
+        },
+        {
+            "contents": "applyAngularImpulse(${1:appliedForce})", 
+            "trigger": "applyAngularImpulse()"
+        },
+        {
+            "contents": "applyForce(${1:xForce}, ${2:yForce}, ${3:bodyX}, ${4:bodyY})", 
+            "trigger": "applyForce()"
+        },
+        {
+            "contents": "applyLinearImpulse(${1:xForce}, ${2:yForce}, ${3:bodyX}, ${4:bodyY})", 
+            "trigger": "applyLinearImpulse()"
+        },
+        {
+            "contents": "applyTorque(${1:appliedForce})", 
+            "trigger": "applyTorque()"
+        },
+        {
+            "contents": "getLinearVelocity($0)", 
+            "trigger": "getLinearVelocity()"
+        },
+        {
+            "contents": "resetMassData($0)", 
+            "trigger": "resetMassData()"
+        },
+        {
+            "contents": "setLinearVelocity(${1:xVelocity}, ${2:yVelocity})", 
+            "trigger": "setLinearVelocity()"
+        },
+        {
+            "contents": "break", 
+            "trigger": "break"
+        },
+        {
+            "contents": "crypto.digest(${1:algorithm}, ${2:string}, ${3:BOOL})", 
+            "trigger": "crypto.digest()"
+        }, 
+        {
+            "contents": "crypto.hmac(${1:algorithm}, ${2:string}, ${3:key}, ${4:BOOL})", 
+            "trigger": "crypto.hmac()"
+        }, 
+        {
+            "contents": "crypto.md4", 
+            "trigger": "crypto.md4"
+        },
+        {
+            "contents": "crypto.md5", 
+            "trigger": "crypto.md5"
+        }, 
+        {
+            "contents": "crypto.sha1", 
+            "trigger": "crypto.sha1"
+        }, 
+        {
+            "contents": "crypto.sha224", 
+            "trigger": "crypto.sha224"
+        }, 
+        {
+            "contents": "crypto.sha256", 
+            "trigger": "crypto.sha256"
+        }, 
+        {
+            "contents": "crypto.sha384", 
+            "trigger": "crypto.sha384"
+        }, 
+        {
+            "contents": "crypto.sha512", 
+            "trigger": "crypto.sha512"
+        }, 
+        {
+            "contents": "display.captureScreen(${1:saveToAlbumBOOL})", 
+            "trigger": "display.captureScreen()"
+        }, 
+                {
+            "contents": "display.capture(${1:displayObject}, ${2:saveToAlbumBOOL})", 
+            "trigger": "display.capture()"
+        },
+        {
+            "contents": "display.contentCenterX", 
+            "trigger": "display.contentCenterX"
+        }, 
+        {
+            "contents": "display.contentCenterY", 
+            "trigger": "display.contentCenterY"
+        }, 
+        {
+            "contents": "display.contentHeight", 
+            "trigger": "display.contentHeight"
+        },
+        {
+            "contents": "display.contentScaleX", 
+            "trigger": "display.contentScaleX"
+        }, 
+        {
+            "contents": "display.contentScaleY", 
+            "trigger": "display.contentScaleY"
+        }, 
+        {
+            "contents": "display.contentWidth", 
+            "trigger": "display.contentWidth"
+        }, 
+        {
+            "contents": "display.getCurrentStage($0)", 
+            "trigger": "display.getCurrentStage()"
+        }, 
+        {
+            "contents": "display.loadRemoteImage(\"${1:URL}\", ${2:method}, ${3:listener}, ${4:params}, ${5:destFileName}, ${6:baseDir}, ${7:x},${8:y})", 
+            "trigger": "display.loadRemoteImage()"
+        }, 
+        {
+            "contents": "display.newCircle(${1:xCenter}, ${2:yCenter}, ${3:radius})", 
+            "trigger": "display.newCircle()"
+        }, 
+        {
+            "contents": "display.newGroup($0)", 
+            "trigger": "display.newGroup()"
+        }, 
+                {
+            "contents": "display.newImageGroup(${1:imageSheet})", 
+            "trigger": "display.newImageGroup()"
+        },
+        {
+            "contents": "display.newImage(${1:parentGroup}, \"${2:fileName}\", ${3:baseDir}, ${4:xPos}, ${5:yPos}, ${6:isFullResBOOL})", 
+            "trigger": "display.newImage()"
+        },
+        {
+            "contents": "display.newImageRect(${1:parentGroup}, \"${2:fileName}\", ${3:baseDir}, ${4:width}, ${5:height})", 
+            "trigger": "display.newImageRect()"
+        },
+        {
+            "contents": "display.newLine(${1:parentGroup}, ${2:x1}, ${3:y1}, ${4:x2}, ${5:y2})", 
+            "trigger": "display.newLine()"
+        }, 
+        {
+            "contents": "display.newRect(${1:parentGroup}, ${2:xPos}, ${3:yPos}, ${4:width}, ${5:height})", 
+            "trigger": "display.newRect()"
+        }, 
+        {
+            "contents": "display.newRoundedRect(${1:parentGroup}, ${2:xPos}, ${3:yPos}, ${4:width}, ${5:height}, ${6:cornerRadius})", 
+            "trigger": "display.newRoundedRect()"
+        }, 
+        {
+            "contents": "display.newText(${1:parentGroup}, \"${2:string}\", ${3:xPos}, ${4:yPos}, ${5:width}, ${6:height}, \"${7:fontName}\", ${8:fontSize})", 
+            "trigger": "display.newText()"
+        },
+        {
+            "contents": "display.newEmbossedText(${1:parentGroup}, \"${2:string}\", ${3:xPos}, ${4:yPos}, ${5:width}, ${6:height}, \"${7:fontName}\", ${8:fontSize}, { ${9:red}, ${10:green}, ${11:blue}, ${12:alpha} })", 
+            "trigger": "display.newEmbossedText()"
+        }, 
+        {
+            "contents": "display.save(${1:displayObject}, ${2:fileName}, ${3:baseDir})", 
+            "trigger": "display.save()"
+        }, 
+        {
+            "contents": "display.remove(${1:object})", 
+            "trigger": "display.remove()"
+        },
+        {
+            "contents": "display.screenOriginX", 
+            "trigger": "display.screenOriginX"
+        },
+        {
+            "contents": "display.screenOriginY", 
+            "trigger": "display.screenOriginY"
+        },
+        {
+            "contents": "display.setDefault(${1:key}, ${2:r}, ${3:g}, ${4:b}, ${5:alpha})", 
+            "trigger": "display.setDefault()"
+        }, 
+        {
+            "contents": "display.setStatusBar(${1:mode})", 
+            "trigger": "display.setStatusBar()"
+        }, 
+        {
+            "contents": "display.statusBarHeight", 
+            "trigger": "display.statusBarHeight"
+        },
+        {
+            "contents": "display.viewableContentHeight", 
+            "trigger": "display.viewableContentHeight"
+        },
+        {
+            "contents": "display.viewableContentWidth", 
+            "trigger": "display.viewableContentWidth"
+        },
+        {
+            "contents": "display.CenterReferencePoint", 
+            "trigger": "display.CenterReferencePoint"
+        },
+        {
+            "contents": "display.TopLeftReferencePoint", 
+            "trigger": "display.TopLeftReferencePoint"
+        },
+        {
+            "contents": "display.TopCenterReferencePoint", 
+            "trigger": "display.TopCenterReferencePoint"
+        },
+        {
+            "contents": "display.TopRightReferencePoint", 
+            "trigger": "display.TopRightReferencePoint"
+        },
+        {
+            "contents": "display.CenterRightReferencePoint", 
+            "trigger": "display.CenterRightReferencePoint"
+        },
+        {
+            "contents": "display.BottomRightReferencePoint", 
+            "trigger": "display.BottomRightReferencePoint"
+        },
+        {
+            "contents": "display.BottomCenterReferencePoint", 
+            "trigger": "display.BottomCenterReferencePoint"
+        },
+        {
+            "contents": "display.BottomLeftReferencePoint", 
+            "trigger": "display.BottomLeftReferencePoint"
+        },
+        {
+            "contents": "display.CenterLeftReferencePoint", 
+            "trigger": "display.CenterLeftReferencePoint"
+        },
+        {
+            "contents": "do", 
+            "trigger": "do"
+        },
+        {
+            "contents": "easing.inExpo(${1:time}, ${2:tMax}, ${3:start}, ${4:delta})", 
+            "trigger": "easing.inExpo()"
+        },
+        {
+            "contents": "easing.inOutExpo(${1:time}, ${2:tMax}, ${3:start}, ${4:delta})", 
+            "trigger": "easing.inOutExpo()"
+        },
+        {
+            "contents": "easing.inOutQuad(${1:time}, ${2:tMax}, ${3:start}, ${4:delta})", 
+            "trigger": "easing.inOutQuad()"
+        },
+        {
+            "contents": "easing.inQuad(${1:time}, ${2:tMax}, ${3:start}, ${4:delta})", 
+            "trigger": "easing.inQuad()"
+        },
+        {
+            "contents": "easing.linear(${1:time}, ${2:tMax}, ${3:start}, ${4:delta})", 
+            "trigger": "easing.linear()"
+        },
+        {
+            "contents": "easing.outExpo(${1:time}, ${2:tMax}, ${3:start}, ${4:delta})", 
+            "trigger": "easing.outExpo()"
+        },
+        {
+            "contents": "easing.outQuad(${1:time}, ${2:tMax}, ${3:start}, ${4:delta})", 
+            "trigger": "easing.outQuad()"
+        },
+        {
+            "contents": "else", 
+            "trigger": "else"
+        },
+        {
+            "contents": "elseif", 
+            "trigger": "elseif"
+        },
+        {
+            "contents": "end", 
+            "trigger": "end"
+        },
+        {
+            "contents": "stop($0)", 
+            "trigger": "stop()"
+        },
+        {
+            "contents": "stopAtFrame(${1:frame})", 
+            "trigger": "stopAtFrame()"
+        },
+        {
+            "contents": "stopRecording($0)", 
+            "trigger": "stopRecording()"
+        },
+        {
+            "contents": "stopTuner($0)", 
+            "trigger": "stopTuner()"
+        },
+        {
+            "contents": "previousFrame($0)", 
+            "trigger": "previousFrame()"
+        },
+        {
+            "contents": "reverse($0)", 
+            "trigger": "reverse()"
+        },
+        {
+            "contents": "rotate(${1:deltaAngle})", 
+            "trigger": "rotate()"
+        },
+        {
+            "contents": "scale(${1:scaleX}, ${2:scaleY})", 
+            "trigger": "scale()"
+        },
+        {
+            "contents": "setDrag(drag = ${1:BOOL})", 
+            "trigger": "setDrag()"
+        },
+        {
+            "contents": "setSampleRate(${1:rate})", 
+            "trigger": "setSampleRate()"
+        },
+        {
+            "contents": "startRecording($0)", 
+            "trigger": "startRecording()"
+        },
+        {
+            "contents": "startTuner($0)", 
+            "trigger": "startTuner()"
+        },
+        {
+            "contents": "translate(${1:deltaX}, ${2:deltaY})", 
+            "trigger": "translate()"
+        },
+        {
+            "contents": "error(\"${1:message}\", ${2:level})", 
+            "trigger": "error"
+        },
+        {
+            "contents": "event.accuracy", 
+            "trigger": "event.accuracy"
+        },
+        {
+            "contents": "event.address", 
+            "trigger": "event.address"
+        },
+        {
+            "contents": "event.altitude", 
+            "trigger": "event.altitude"
+        },
+        {
+            "contents": "event.blob", 
+            "trigger": "event.blob"
+        },
+        {
+            "contents": "event.city", 
+            "trigger": "event.city"
+        },
+        {
+            "contents": "event.cityDetail", 
+            "trigger": "event.cityDetail"
+        },
+        {
+            "contents": "event.count", 
+            "trigger": "event.count"
+        },
+        {
+            "contents": "event.country", 
+            "trigger": "event.country"
+        },
+        {
+            "contents": "event.countryCode", 
+            "trigger": "event.countryCode"
+        },
+        {
+            "contents": "event.delta", 
+            "trigger": "event.delta"
+        },
+        {
+            "contents": "event.direction", 
+            "trigger": "event.direction"
+        },
+        {
+            "contents": "event.errorCode", 
+            "trigger": "event.errorCode"
+        },
+        {
+            "contents": "event.errorMessage", 
+            "trigger": "event.errorMessage"
+        },
+        {
+            "contents": "event.force", 
+            "trigger": "event.force"
+        },
+        {
+            "contents": "event.friction", 
+            "trigger": "event.friction"
+        },
+        {
+            "contents": "event.geographic", 
+            "trigger": "event.geographic"
+        },
+        {
+            "contents": "event.id", 
+            "trigger": "event.id"
+        },
+        {
+            "contents": "event.invalidProducts", 
+            "trigger": "event.invalidProducts"
+        },
+        {
+            "contents": "event.isError", 
+            "trigger": "event.isError"
+        },
+        {
+            "contents": "event.isShake", 
+            "trigger": "event.isShake"
+        },
+        {
+            "contents": "event.latitude", 
+            "trigger": "event.latitude"
+        },
+        {
+            "contents": "event.longitude", 
+            "trigger": "event.longitude"
+        },
+        {
+            "contents": "event.magnetic", 
+            "trigger": "event.magnetic"
+        },
+        {
+            "contents": "event.object1", 
+            "trigger": "event.object1"
+        },
+        {
+            "contents": "event.object2", 
+            "trigger": "event.object2"
+        },
+        {
+            "contents": "event.other", 
+            "trigger": "event.other"
+        },
+        {
+            "contents": "event.phase", 
+            "trigger": "event.phase"
+        },
+        {
+            "contents": "event.postalCode", 
+            "trigger": "event.postalCode"
+        },
+        {
+            "contents": "event.products", 
+            "trigger": "event.products"
+        },
+        {
+            "contents": "event.region", 
+            "trigger": "event.region"
+        },
+        {
+            "contents": "event.regionDetail", 
+            "trigger": "event.regionDetail"
+        },
+        {
+            "contents": "event.source", 
+            "trigger": "event.source"
+        },
+        {
+            "contents": "event.speed", 
+            "trigger": "event.speed"
+        },
+        {
+            "contents": "event.sprite", 
+            "trigger": "event.sprite"
+        },
+        {
+            "contents": "event.street", 
+            "trigger": "event.street"
+        },
+        {
+            "contents": "event.streetDetail", 
+            "trigger": "event.streetDetail"
+        },
+        {
+            "contents": "event.time", 
+            "trigger": "event.time"
+        },
+        {
+            "contents": "event.transaction", 
+            "trigger": "event.transaction"
+        },
+        {
+            "contents": "event.type", 
+            "trigger": "event.type"
+        },
+        {
+            "contents": "event.url", 
+            "trigger": "event.url"
+        },
+        {
+            "contents": "event.x", 
+            "trigger": "event.x"
+        },
+        {
+            "contents": "event.xGravity", 
+            "trigger": "event.xGravity"
+        },
+        {
+            "contents": "event.xInstant", 
+            "trigger": "event.xInstant"
+        },
+        {
+            "contents": "event.xStart", 
+            "trigger": "event.xStart"
+        },
+        {
+            "contents": "event.y", 
+            "trigger": "event.y"
+        },
+        {
+            "contents": "event.yGravity", 
+            "trigger": "event.yGravity"
+        },
+        {
+            "contents": "event.yInstant", 
+            "trigger": "event.yInstant"
+        },
+        {
+            "contents": "event.yStart", 
+            "trigger": "event.yStart"
+        },
+        {
+            "contents": "event.zGravity", 
+            "trigger": "event.zGravity"
+        },
+        {
+            "contents": "event.zInstant", 
+            "trigger": "event.zInstant"
+        },
+        {
+            "contents": "event.deltaTime", 
+            "trigger": "event.deltaTime"
+        },
+        {
+            "contents": "event.xRotation", 
+            "trigger": "event.xRotation"
+        },
+        {
+            "contents": "event.yRotation", 
+            "trigger": "event.yRotation"
+        },
+        {
+            "contents": "event.zRotation", 
+            "trigger": "event.zRotation"
+        },
+        {
+            "contents": "event.keyName", 
+            "trigger": "event.keyName"
+        },
+        {
+            "contents": "event.name", 
+            "trigger": "event.name"
+        },
+        {
+            "contents": "event.newCredits", 
+            "trigger": "event.newCredits"
+        },
+        {
+            "contents": "event.totalCredits", 
+            "trigger": "event.totalCredits"
+        },
+        {
+            "contents": "event.isConnectionOnDemand", 
+            "trigger": "event.isConnectionOnDemand"
+        },
+        {
+            "contents": "event.isConnectionRequired", 
+            "trigger": "event.isConnectionRequired"
+        },
+        {
+            "contents": "event.isInteractionRequired", 
+            "trigger": "event.isInteractionRequired"
+        },
+        {
+            "contents": "event.isReachable", 
+            "trigger": "event.isReachable"
+        },
+        {
+            "contents": "event.isReachableViaCellular", 
+            "trigger": "event.isReachableViaCellular"
+        },
+        {
+            "contents": "event.isReachableViaWiFi", 
+            "trigger": "event.isReachableViaWiFi"
+        },
+        {
+            "contents": "event.channel", 
+            "trigger": "event.channel"
+        },
+        {
+            "contents": "event.completed", 
+            "trigger": "event.completed"
+        },
+        {
+            "contents": "event.handle", 
+            "trigger": "event.handle"
+        },
+        {
+            "contents": "event.action", 
+            "trigger": "event.action"
+        },
+        {
+            "contents": "event.index", 
+            "trigger": "event.index"
+        },
+        {
+            "contents": "event.target", 
+            "trigger": "event.target"
+        },
+        {
+            "contents": "event.view", 
+            "trigger": "event.view"
+        },
+        {
+            "contents": "event.tableView", 
+            "trigger": "event.tableView"
+        },
+        {
+            "contents": "event.numTaps", 
+            "trigger": "event.numTaps"
+        },
+                {
+            "contents": "event.expiration", 
+            "trigger": "event.expiration"
+        },
+        {
+            "contents": "facebook.login(${1:appID}, ${2:listener}, {${3:permission}})", 
+            "trigger": "facebook.login()"
+        },
+        {
+            "contents": "facebook.logout($0)", 
+            "trigger": "facebook.logout()"
+        },
+        {
+            "contents": "facebook.request(${1:path}, ${2:httpMethod}, ${3:params})", 
+            "trigger": "facebook.request()"
+        },
+        {
+            "contents": "facebook.showDialog({${1:params}})", 
+            "trigger": "facebook.showDialog()"
+        },
+        {
+            "contents": "false", 
+            "trigger": "false"
+        },
+        {
+            "contents": "file:close($0)", 
+            "trigger": "file:close()"
+        },
+        {
+            "contents": "file:flush($0)", 
+            "trigger": "file:flush()"
+        },
+        {
+            "contents": "file:lines($0)", 
+            "trigger": "file:lines()"
+        },
+        {
+            "contents": "file:read(${1:fmt1}, ${2:fmt2})", 
+            "trigger": "file:read()"
+        },
+        {
+            "contents": "file:seek(${1:mode}, ${2:offSet})", 
+            "trigger": "file:seek()"
+        },
+        {
+            "contents": "file:setvbuf(${1:mode}, ${2:size})", 
+            "trigger": "file:setvbuf()"
+        },
+        {
+            "contents": "file:write(${1:arg1}, ${2:arg2})", 
+            "trigger": "file:write()"
+        },
+        {
+            "contents": "for", 
+            "trigger": "for"
+        },
+        {
+            "contents": "function", 
+            "trigger": "function"
+        },
+        {
+            "contents": "function($0)\n\nend", 
+            "trigger": "function()"
+        },
+        {
+            "contents": "getfenv(${1:f})", 
+            "trigger": "getfenv()"
+        },
+        {
+            "contents": "getmetatable(${1:object})", 
+            "trigger": "getmetatable()"
+        },
+        {
+            "contents": "group.numChildren", 
+            "trigger": "group.numChildren"
+        },
+        {
+            "contents": "group:insert(${1:index}, ${2:child}, ${3:resetTransform})", 
+            "trigger": "group:insert()"
+        },
+        {
+            "contents": "group:remove(${1:index OR child})", 
+            "trigger": "group:remove()"
+        },
+        {
+            "contents": "if", 
+            "trigger": "if"
+        },
+        {
+            "contents": "in", 
+            "trigger": "in"
+        },
+        {
+            "contents": "io:close(${1:file})", 
+            "trigger": "io:close()"
+        },
+        {
+            "contents": "io:flush($0)", 
+            "trigger": "io:flush()"
+        },
+        {
+            "contents": "io:input(${1:file})", 
+            "trigger": "io:input()"
+        },
+        {
+            "contents": "io:lines(${1:file})", 
+            "trigger": "io:lines()"
+        },
+        {
+            "contents": "io:open(${1:filePath}, ${2:mode})", 
+            "trigger": "io:open()"
+        },
+        {
+            "contents": "io:ouput(${1:file})", 
+            "trigger": "io:output()"
+        },
+        {
+            "contents": "io:read(${1:fmt1}, ${2:fmt2})", 
+            "trigger": "io:read()"
+        },
+        {
+            "contents": "io:tmpfile($0)", 
+            "trigger": "io:tmpfile()"
+        },
+        {
+            "contents": "io:type(${1:object})", 
+            "trigger": "io:type()"
+        },
+        {
+            "contents": "io:write(${1:arg1}, ${2:arg2})", 
+            "trigger": "io:write()"
+        },
+        {
+            "contents": "json.encode(${1:table})", 
+            "trigger": "json.encode()"
+        },
+        {
+            "contents": "json.decode(${1:table})", 
+            "trigger": "json.decode()"
+        },
+        {
+            "contents": "json.null($0)", 
+            "trigger": "json.null()"
+        },
+        {
+            "contents": "joint.dampingRatio = ${1:value}", 
+            "trigger": "joint.dampingRatio"
+        },
+        {
+            "contents": "joint.frequency = ${1:value In Hz}", 
+            "trigger": "joint.frequency"
+        },
+        {
+            "contents": "joint.isLimitEnabled = ${1:BOOL}", 
+            "trigger": "joint.isLimitEnabled"
+        },
+        {
+            "contents": "joint.isMotorEnabled", 
+            "trigger": "joint.isMotorEnabled"
+        },
+        {
+            "contents": "joint.jointAngle", 
+            "trigger": "joint.jointAngle"
+        },
+        {
+            "contents": "joint.jointSpeed", 
+            "trigger": "joint.jointSpeed"
+        },
+        {
+            "contents": "joint.jointTranslation", 
+            "trigger": "joint.jointTranslation"
+        },
+        {
+            "contents": "joint.length", 
+            "trigger": "joint.length"
+        },
+        {
+            "contents": "joint.length1", 
+            "trigger": "joint.length1"
+        },
+        {
+            "contents": "joint.length2", 
+            "trigger": "joint.length2"
+        },
+        {
+            "contents": "joint.maxForce = ${1:value}", 
+            "trigger": "joint.maxForce"
+        },
+        {
+            "contents": "joint.maxMotorForce", 
+            "trigger": "joint.maxMotorForce"
+        },
+        {
+            "contents": "joint.maxMotorTorque = ${1:value}", 
+            "trigger": "joint.maxMotorTorque"
+        },
+        {
+            "contents": "joint.maxTorque", 
+            "trigger": "joint.maxTorque"
+        },
+        {
+            "contents": "joint.motorForce", 
+            "trigger": "joint.motorForce"
+        },
+        {
+            "contents": "joint.motorSpeed = ${1:value}", 
+            "trigger": "joint.motorSpeed"
+        },
+        {
+            "contents": "joint.motorTorque", 
+            "trigger": "joint.motorTorque"
+        },
+        {
+            "contents": "joint.reactionTorque", 
+            "trigger": "joint.reactionTorque"
+        },
+        {
+            "contents": "joint.ratio", 
+            "trigger": "joint.ratio"
+        },
+        {
+            "contents": "joint:getAnchorA($0)", 
+            "trigger": "joint:getAnchorA()"
+        },
+        {
+            "contents": "joint:getAnchorB($0)", 
+            "trigger": "joint:getAnchorB()"
+        },
+        {
+            "contents": "joint:getLimits($0)", 
+            "trigger": "joint:getLimits()"
+        },
+        {
+            "contents": "joint:getReactionForce($0)", 
+            "trigger": "joint:getReactionForce()"
+        },
+        {
+            "contents": "joint:getRotationLimits($0)", 
+            "trigger": "joint:getRotationLimits()"
+        },
+        {
+            "contents": "joint:removeSelf($0)", 
+            "trigger": "joint:removeSelf()"
+        },
+        {
+            "contents": "joint:setLimits(${1:upper}, ${2:lower})", 
+            "trigger": "joint:setLimits()"
+        },
+        {
+            "contents": "joint:setRotationLimits(${1:upper}, ${2:lower})", 
+            "trigger": "joint:setRotationLimits()"
+        },
+        {
+            "contents": "local", 
+            "trigger": "local"
+        },
+        {
+            "contents": "math.abs(${1:x})", 
+            "trigger": "math.abs()"
+        },
+        {
+            "contents": "math.acos(${1:x})", 
+            "trigger": "math.acos()"
+        },        
+        {
+            "contents": "math.asin(${1:x})", 
+            "trigger": "math.asin()"
+        },
+        {
+            "contents": "math.atan(${1:x})", 
+            "trigger": "math.atan()"
+        },
+        {
+            "contents": "math.atan2(${1:y}, ${2:x})", 
+            "trigger": "math.atan2()"
+        },        
+        {
+            "contents": "math.ceil(${1:x})", 
+            "trigger": "math.ceil()"
+        },
+        {
+            "contents": "math.cos(${1:x})", 
+            "trigger": "math.cos()"
+        },
+        {
+            "contents": "math.cosh(${1:x})", 
+            "trigger": "math.cosh()"
+        },        
+        {
+            "contents": "math.deg(${1:x})", 
+            "trigger": "math.deg()"
+        },
+        {
+            "contents": "math.exp(${1:x})", 
+            "trigger": "math.exp()"
+        },
+        {
+            "contents": "math.floor(${1:x})", 
+            "trigger": "math.floor()"
+        },        
+        {
+            "contents": "math.fmod(${1:x}, ${2:y})", 
+            "trigger": "math.fmod()"
+        },
+        {
+            "contents": "math.frexp(${1:x})", 
+            "trigger": "math.frexp()"
+        },
+        {
+            "contents": "math.huge", 
+            "trigger": "math.huge"
+        },
+        {
+            "contents": "math.ldexp(${1:m}, ${2:e})", 
+            "trigger": "math.ldexp()"
+        },        
+        {
+            "contents": "math.log(${1:x})", 
+            "trigger": "math.log()"
+        },
+        {
+            "contents": "math.log10(${1:x})", 
+            "trigger": "math.log10()"
+        },
+        {
+            "contents": "math.max(${1:x}, ${2:...})", 
+            "trigger": "math.max()"
+        },        
+        {
+            "contents": "math.min(${1:x}, ${2:...})", 
+            "trigger": "math.min()"
+        },
+        {
+            "contents": "math.modf(${1:x})", 
+            "trigger": "math.modf()"
+        },
+        {
+            "contents": "math.pi", 
+            "trigger": "math.pi"
+        },        
+        {
+            "contents": "math.pow(${1:x}, ${2:y})", 
+            "trigger": "math.pow()"
+        },
+        {
+            "contents": "math.rad(${1:x})", 
+            "trigger": "math.rad()"
+        },
+        {
+            "contents": "math.round(${1:x})", 
+            "trigger": "math.round()"
+        },
+        {
+            "contents": "math.random(${1:m}, ${2:n})", 
+            "trigger": "math.random()"
+        },
+        {
+            "contents": "math.randomSeed(${1:x})", 
+            "trigger": "math.randomSeed()"
+        },        
+        {
+            "contents": "math.sin(${1:x})", 
+            "trigger": "math.sin()"
+        },
+        {
+            "contents": "math.sinh(${1:x})", 
+            "trigger": "math.sinh()"
+        },
+        {
+            "contents": "math.sqrt(${1:x})", 
+            "trigger": "math.sqrt()"
+        },        
+        {
+            "contents": "math.tan(${1:x})", 
+            "trigger": "math.tan()"
+        },
+        {
+            "contents": "math.tanh(${1:x})", 
+            "trigger": "math.tanh()"
+        },
+        {
+            "contents": "media.getSoundVolume($0)", 
+            "trigger": "media.getSoundVolume()"
+        },
+        {
+            "contents": "media.newEventSound(\"${1:fileName}\", ${2:baseDir})",
+            "trigger": "media.newEventSound()"
+        },
+        {
+            "contents": "media.newRecording(${1:path})",
+            "trigger": "media.newRecording()"
+        },
+        {
+            "contents": "media.pauseSound($0)",
+            "trigger": "media.pauseSound()"
+        },
+        {
+            "contents": "media.playEventSound(${1:sound}, ${2:baseDir}, ${3:completionListener})",
+            "trigger": "media.playEventSound()"
+        },
+        {
+            "contents": "media.playSound(${1:soundFile}, ${2:baseDir}, ${3:loop OR onComplete})",
+            "trigger": "media.playSound()"
+        },
+        {
+            "contents": "media.playVideo(${1:path}, ${2:baseSource}, ${3:showControls}, ${4:listener})",
+            "trigger": "media.playVideo()"
+        },
+        {
+            "contents": "media.setSoundVolume(${1:volume})",
+            "trigger": "media.setSoundVolume()"
+        },
+        {
+            "contents": "media.show(${1:imageSource}, ${2:listener})",
+            "trigger": "media.show()"
+        },
+        {
+            "contents": "media.stopSound($0)",
+            "trigger": "media.stopSound()"
+        },
+        {
+            "contents": "module(${1:name}, ${2:...})",
+            "trigger": "module()"
+        },
+        {
+            "contents": "movieclip.newAnim(${1:frames})",
+            "trigger": "movieclip.newAnim()"
+        },
+        {
+            "contents": "myMap.isLocationVisible = ${1:BOOL}",
+            "trigger": "myMap.isLocationVisible"
+        },
+        {
+            "contents": "myMap.isScrollEnabled = ${1:BOOL}",
+            "trigger": "myMap.isScrollEnabled"
+        },
+        {
+            "contents": "myMap.isZoomEnabled = ${1:BOOL}",
+            "trigger": "myMap.isZoomEnabled"
+        },
+        {
+            "contents": "myMap.mapType = \"${1:standard/satellite/hybrid}\"",
+            "trigger": "myMap.mapType"
+        },
+        {
+            "contents": "myMap:addMarker(${1:latitude}, ${2:longitude}, { title = \"${3:titleText}\", subtitle = \"${4:subtitleText}\" })",
+            "trigger": "myMap:addMarker()"
+        },
+        {
+            "contents": "myMap:getAddressLocation(${1:location})",
+            "trigger": "myMap:getAddressLocation()"
+        },
+        {
+            "contents": "myMap:getUserLocation($0)",
+            "trigger": "myMap:getUserLocation()"
+        },
+        {
+            "contents": "myMap:removeAllMarkers($0)",
+            "trigger": "myMap:removeAllMarkers()"
+        },
+        {
+            "contents": "myMap:setCenter(${1:latitude}, ${2:longitude}, ${3:isAnimated})",
+            "trigger": "myMap:setCenter()"
+        },
+        {
+            "contents": "myMap:setRegion(${1:latitude}, ${2:longitude}, ${3:latitudeSpan}, ${4:longitudeSpan}, ${5:isAnimated})",
+            "trigger": "myMap:setRegion()"
+        },
+        {
+            "contents": "native.cancelAlert(${1:alert})",
+            "trigger": "native.cancelAlert()"
+        },
+        {
+            "contents": "native.cancelWebPopup($0)",
+            "trigger": "native.cancelWebPopup()"
+        },
+        {
+            "contents": "native.getFontNames($0)",
+            "trigger": "native.getFontNames()"
+        },
+        {
+            "contents": "native.newFont(${1:fontName}, ${2:fontSize})",
+            "trigger": "native.newFont()"
+        },
+        {
+            "contents": "native.newMapView(${1:xPos}, ${2:yPos}, ${3:width}, ${4:height})",
+            "trigger": "native.newMapView()"
+        },
+        {
+            "contents": "native.newTextBox(${1:xPos}, ${2:yPos}, ${3:width}, ${4:height})",
+            "trigger": "native.newTextBox()"
+        },
+        {
+            "contents": "native.newTextField(${1:xPos}, ${2:yPos}, ${3:width}, ${4:height}, ${5:listener})",
+            "trigger": "native.newTextField()"
+        },
+        {
+            "contents": "native.setActivityIndicator(${1:stateBOOL})",
+            "trigger": "native.setActivityIndicator()"
+        },
+        {
+            "contents": "native.setKeyboardFocus(${1:textField})",
+            "trigger": "native.setKeyboardFocus()"
+        },
+        {
+            "contents": "native.showPopUp(\"${1:mail or sms}\", ${2:optionsTable} )",
+            "trigger": "native.showPopUp()"
+        },
+        {
+            "contents": "native.setSync(\"${1:fileName}\", { iCloudBackup = ${2:BOOL} } )",
+            "trigger": "native.setSync()"
+        },
+        {
+            "contents": "native.getSync(\"${1:fileName}\", { key = \"${2:Key}\" } )",
+            "trigger": "native.getSync()"
+        },
+        {
+            "contents": "mailOptions = { to = \"${1:emailAddress}\", cc = \"${2:emailAddress}\", subject = \"${3:subject}\", isBodyHtml = ${4:BOOL}, body = \"${5:emailMessage}\"}",
+            "trigger": "mailOptions = {}"
+        },
+        {
+            "contents": "smsOptions = {to = {\"${1:phoneNumber}\"}, body = \"${2:messageText}\"}",
+            "trigger": "smsOptions = {}"
+        },
+
+        {
+            "contents": "native.showAlert(\"${1:titleText}\", \"${2:messageText}\", { \"${3:OK_Btn_Text}\", \"${4:Dismiss_Btn_Text}\", ${5:listener} })",
+            "trigger": "native.showAlert()"
+        },
+        {
+            "contents": "native.showWebPopup(${1:xPos}, ${2:yPos}, ${3:width}, ${4:height}, \"${5:URL}\", ${6:options})",
+            "trigger": "native.showWebPopup()"
+        },
+        {
+            "contents": "native.newVideo(${1:xPos}, ${2:yPos}, ${3:width}, ${4:height})",
+            "trigger": "native.newVideo()"
+        },
+        {
+            "contents": "load(\"${1:file}\", ${2:baseDir})", 
+            "trigger": "load(newVideo)"
+        },
+        {
+            "contents": "pause($0)", 
+            "trigger": "pause(newVideo)"
+        },
+        {
+            "contents": "seek(${1:timeInSeconds})", 
+            "trigger": "seek(newVideo)"
+        },
+        {
+            "contents": "native.newWebView(${1:xPos}, ${2:yPos}, ${3:width}, ${4:height}, ${5:listener})",
+            "trigger": "native.newWebView()"
+        },
+        {
+            "contents": "request(\"${1:URL}\")", 
+            "trigger": "request(webViewURL)"
+        },
+        {
+            "contents": "native.systemFont",
+            "trigger": "native.systemFont"
+        },
+        {
+            "contents": "network.download(\"${1:URL}\", ${2:method}, ${3:listener}, ${4:params}, ${5:destFileName}, ${6:baseDir})",
+            "trigger": "network.download()"
+        },
+        {
+            "contents": "network.request(\"${1:URL}\", ${2:method}, ${3:listener}, ${4:params})",
+            "trigger": "network.request()"
+        },
+        {
+            "contents": "network.canDetectNetworkStatusChanges",
+            "trigger": "network.canDetectNetworkStatusChanges"
+        },
+        {
+            "contents": "network.setStatusListener(\"${1:URL}\", ${2:listener})",
+            "trigger": "network.setStatusListener()"
+        },
+        {
+            "contents": "next(${1:table}, ${2:index})",
+            "trigger": "next()"
+        },
+        {
+            "contents": "nil",
+            "trigger": "nil"
+        },
+        {
+            "contents": "not",
+            "trigger": "not"
+        },
+        {
+            "contents": "true",
+            "trigger": "true"
+        },
+        {
+            "contents": "until",
+            "trigger": "until"
+        },
+        {
+            "contents": "while",
+            "trigger": "while"
+        },
+        {
+            "contents": "_G",
+            "trigger": "_G"
+        },
+        {
+            "contents": "alphabet",
+            "trigger": "alphabet"
+        },
+        {
+            "contents": "align",
+            "trigger": "align"
+        },
+        {
+            "contents": "alpha",
+            "trigger": "alpha"
+        },
+        {
+            "contents": "baseUrl",
+            "trigger": "baseUrl"
+        },
+        {
+            "contents": "font",
+            "trigger": "font"
+        },
+        {
+            "contents": "hasBackground = ${1:BOOL}",
+            "trigger": "hasBackground"
+        },
+        {
+            "contents": "height",
+            "trigger": "height"
+        },
+        {
+            "contents": "isHitTestable = ${1:BOOL}",
+            "trigger": "isHitTestable"
+        },
+        {
+            "contents": "isSecure = ${1:BOOL}",
+            "trigger": "isSecure"
+        },
+        {
+            "contents": "isSensor = ${1:BOOL}",
+            "trigger": "isSensor"
+        },
+        {
+            "contents": "isVisible = ${1:BOOL}",
+            "trigger": "isVisible"
+        },
+        {
+            "contents": "parent",
+            "trigger": "parent"
+        },
+        {
+            "contents": "rotation",
+            "trigger": "rotation"
+        },
+        {
+            "contents": "contentBounds",
+            "trigger": "contentBounds"
+        },
+        {
+            "contents": "contentHeight",
+            "trigger": "contentHeight"
+        },
+        {
+            "contents": "contentWidth",
+            "trigger": "contentWidth"
+        },
+        {
+            "contents": "strokeWidth = ${1:number}",
+            "trigger": "strokeWidth"
+        },
+        {
+            "contents": "text",
+            "trigger": "text"
+        },
+        {
+            "contents": "urlRequest",
+            "trigger": "urlRequest"
+        },
+        {
+            "contents": "width",
+            "trigger": "width"
+        },
+        {
+            "contents": "xOrigin",
+            "trigger": "xOrigin"
+        },
+        {
+            "contents": "xReference",
+            "trigger": "xReference"
+        },
+        {
+            "contents": "xScale",
+            "trigger": "xScale"
+        },
+        {
+            "contents": "yOrigin",
+            "trigger": "yOrigin"
+        },
+        {
+            "contents": "yReference",
+            "trigger": "yReference"
+        },
+        {
+            "contents": "yScale",
+            "trigger": "yScale"
+        },
+        {
+            "contents": "x",
+            "trigger": "x"
+        },
+        {
+            "contents": "y",
+            "trigger": "y"
+        },
+        {
+            "contents": "z",
+            "trigger": "z"
+        },
+        {
+            "contents": "parent",
+            "trigger": "parent"
+        },
+        {
+            "contents": "then",
+            "trigger": "then"
+        },
+        {
+            "contents": "repeat",
+            "trigger": "repeat"
+        },
+        {
+            "contents": "return",
+            "trigger": "return"
+        },
+        {
+            "contents": "or",
+            "trigger": "or"
+        },
+        {
+            "contents": "print(\"${1:message}\")",
+            "trigger": "print()"
+        },
+        {
+            "contents": "setReferencePoint(${1:referencePoint})",
+            "trigger": "setReferencePoint()"
+        },
+        {
+            "contents": "setColor(${1:red}, ${2:green}, ${3:blue}, ${4:alpha})",
+            "trigger": "setColor()"
+        },
+        {
+            "contents": "setFillColor(${1:red}, ${2:green}, ${3:blue}, ${4:alpha})",
+            "trigger": "setFillColor()"
+        },
+        {
+            "contents": "setStrokeColor(${1:red}, ${2:green}, ${3:blue}, ${4:alpha})",
+            "trigger": "setStrokeColor()"
+        },
+        {
+            "contents": "setTextColor(${1:red}, ${2:green}, ${3:blue}, ${4:alpha})",
+            "trigger": "setTextColor()"
+        },
+        {
+            "contents": "addEventListener(\"${1:eventName}\", ${2:listener})",
+            "trigger": "addEventListener()"
+        },
+        {
+            "contents": "removeEventListener(\"${1:eventName}\", ${2:listener})",
+            "trigger": "removeEventListener()"
+        },
+        {
+            "contents": "dispatchEvent(\"${1:eventName}\")",
+            "trigger": "dispatchEvent()"
+        },
+        {
+            "contents": "getSampleRate($0)",
+            "trigger": "getSampleRate()"
+        },
+        {
+            "contents": "getTunerFrequency($0)",
+            "trigger": "getTunerFrequency()"
+        },
+        {
+            "contents": "getTunerVolume($0)",
+            "trigger": "getTunerVolume()"
+        },
+        {
+            "contents": "isRecording($0)",
+            "trigger": "isRecording()"
+        },
+        {
+            "contents": "nextFrame($0)",
+            "trigger": "nextFrame()"
+        },
+        {
+            "contents": "play($0)",
+            "trigger": "play()"
+        },
+        {
+            "contents": "contentToLocal(${1:xContent}, ${2:yContent})",
+            "trigger": "contentToLocal()"
+        },
+        {
+            "contents": "localToContent(${1:xContent}, ${2:yContent})",
+            "trigger": "localToContent()"
+        },
+        {
+            "contents": "graphics.newMask(\"${1:xContent}\", ${2:baseDir})",
+            "trigger": "graphics.newMask()"
+        },
+        {
+            "contents": "graphics.newGradient({${1:red}, ${2:green}, ${3:blue}, ${4:alpha}}, {${5:red}, ${6:green}, ${7:blue}, ${8:alpha}}, \"${9:up, down, left, right}\")",
+            "trigger": "graphics.newGradient()"
+        },
+        {
+            "contents": "graphics.newImageSheet(\"${1:fileName}\", ${2:baseDir}, ${3:optionsTable})",
+            "trigger": "graphics.newImageSheet()"
+        },
+        {
+            "contents": "sheetOptions = { width = ${1:width}, height = ${2:height}, numFrames = ${3:frames}, sheetContentWidth = ${4:sheetWidth}, sheetContentHeight = ${4:sheetHeight} }",
+            "trigger": "sheetOptions = {}"
+        },
+        {
+            "contents": "setMask(${1:maskName})",
+            "trigger": "setMask()"
+        },
+        {
+            "contents": "toBack($0)",
+            "trigger": "toBack()"
+        },
+        {
+            "contents": "toFront($0)",
+            "trigger": "toFront()"
+        },
+        {
+            "contents": "isHitTestMasked = ${1:BOOL}",
+            "trigger": "isHitTestMasked"
+        },
+        {
+            "contents": "maskRotation",
+            "trigger": "maskRotation"
+        },
+        {
+            "contents": "maskScaleX",
+            "trigger": "maskScaleX"
+        },
+        {
+            "contents": "maskScaleY",
+            "trigger": "maskScaleY"
+        },
+        {
+            "contents": "maskX",
+            "trigger": "maskX"
+        },
+        {
+            "contents": "maskY",
+            "trigger": "maskY"
+        },
+        {
+            "contents": "os.clock()",
+            "trigger": "os.clock()"
+        },
+        {
+            "contents": "os.date(${1:format}, ${2:time})",
+            "trigger": "os.date()"
+        },
+        {
+            "contents": "os.difftime(${1:t1}, ${2:t2})",
+            "trigger": "os.difftime()"
+        },
+        {
+            "contents": "os.execute(\"${1:command}\")",
+            "trigger": "os.execute()"
+        },
+        {
+            "contents": "os.exit(${1:code})",
+            "trigger": "os.exit()"
+        },
+        {
+            "contents": "os.remove(\"${1:fileName}\")",
+            "trigger": "os.remove()"
+        },
+        {
+            "contents": "os.rename(\"${1:oldName}\", \"${2:newName}\")",
+            "trigger": "os.rename()"
+        },
+        {
+            "contents": "os.time(${1:table})",
+            "trigger": "os.time()"
+        },
+        {
+            "contents": "append(${1:x}, ${2:y}, ${3:...})",
+            "trigger": "append()"
+        },
+        {
+            "contents": "inputType = \"${1:x}\"",
+            "trigger": "inputType"
+        },
+        {
+            "contents": "isEditable = ${1:BOOL}",
+            "trigger": "isEditable"
+        },
+        {
+            "contents": "require(\"${1:moduleName}\")",
+            "trigger": "require()"
+        },
+        {
+            "contents": "require(\"ads\")",
+            "trigger": "require(\"ads\")"
+        },
+        {
+            "contents": "require(\"credits\")",
+            "trigger": "require(\"credits\")"
+        },
+        {
+            "contents": "require(\"crypto\")",
+            "trigger": "require(\"crypto\")"
+        },
+        {
+            "contents": "require(\"sqlite3\")",
+            "trigger": "require(\"sqlite3\")"
+        },
+        {
+            "contents": "require(\"gameNetwork\")",
+            "trigger": "require(\"gameNetwork\")"
+        },
+        {
+            "contents": "require(\"json\")",
+            "trigger": "require(\"json\")"
+        },
+        {
+            "contents": "require(\"store\")",
+            "trigger": "require(\"store\")"
+        },
+        {
+            "contents": "require(\"openfeint\")",
+            "trigger": "require(\"openfeint\")"
+        },
+        {
+            "contents": "require(\"physics\")",
+            "trigger": "require(\"physics\")"
+        },
+        {
+            "contents": "require(\"sprite\")",
+            "trigger": "require(\"sprite\")"
+        },
+        {
+            "contents": "require(\"director\")",
+            "trigger": "require(\"director\")"
+        },
+        {
+            "contents": "require(\"lime\")",
+            "trigger": "require(\"lime\")"
+        },
+        {
+            "contents": "require(\"movieclip\")",
+            "trigger": "require(\"movieclip\")"
+        },
+        {
+            "contents": "require(\"widget\")",
+            "trigger": "require(\"widget\")"
+        },
+        {
+            "contents": "require(\"analytics\")",
+            "trigger": "require(\"analytics\")"
+        },
+        {
+            "contents": "require(\"facebook\")",
+            "trigger": "require(\"facebook\")"
+        },
+        {
+            "contents": "require(\"socket.http\")",
+            "trigger": "require(\"socket.http\")"
+        },
+        {
+            "contents": "require(\"socket.ftp\")",
+            "trigger": "require(\"socket.ftp\")"
+        },
+        {
+            "contents": "require(\"socket\")",
+            "trigger": "require(\"socket\")"
+        },
+        {
+            "contents": "require(\"ltn12\")",
+            "trigger": "require(\"ltn12\")"
+        },
+        {
+            "contents": "require(\"ui\")",
+            "trigger": "require(\"ui\")"
+        },
+        {
+            "contents": "package.loaded",
+            "trigger": "package.loaded"
+        },
+        {
+            "contents": "package.loaders",
+            "trigger": "package.loaders"
+        },
+        {
+            "contents": "package.seeall(\"${1:module}\")",
+            "trigger": "package.seeall()"
+        },
+        {
+            "contents": "pairs(${1:table})",
+            "trigger": "pairs()"
+        },
+        {
+            "contents": "pcall(${1:function}, ${2:argument})",
+            "trigger": "pcall()"
+        },
+        {
+            "contents": "rawequal(${1:value1}, ${2:value2})",
+            "trigger": "rawequal()"
+        },
+        {
+            "contents": "rawget(${1:table}, ${2:index})",
+            "trigger": "rawget()"
+        },
+        {
+            "contents": "rawset(${1:table}, ${2:index}, ${3:value})",
+            "trigger": "rawset()"
+        },
+        {
+            "contents": "select(${1:index}, ${2:...})",
+            "trigger": "select()"
+        },
+        {
+            "contents": "setfenv(${1:function}, ${2:table})",
+            "trigger": "setfenv()"
+        },
+        {
+            "contents": "setmetatable(${1:table}, ${2:metatable})",
+            "trigger": "setmetatable()"
+        },
+        {
+            "contents": "unpack(${1:tableList}, ${2:i}, ${3:j})",
+            "trigger": "unpack()"
+        },
+        {
+            "contents": "table.concat(${1:table}, \"${2:string}\", ${3:i}, ${4:j})",
+            "trigger": "table.concat()"
+        },
+        {
+            "contents": "table.copy(${1:table1}, ${2:table2})",
+            "trigger": "table.copy()"
+        },
+        {
+            "contents": "table.indexOf(${1:table}, ${2:object})",
+            "trigger": "table.indexOf()"
+        },
+        {
+            "contents": "table.insert(${1:table}, ${2:position}, ${3:value})",
+            "trigger": "table.insert()"
+        },
+        {
+            "contents": "table.maxn(${1:table})",
+            "trigger": "table.maxn()"
+        },
+        {
+            "contents": "table.remove(${1:table}, ${2:position})",
+            "trigger": "table.remove()"
+        },
+        {
+            "contents": "table.sort(${1:table}, ${2:comp})",
+            "trigger": "table.sort()"
+        },
+        {
+            "contents": "tonumber(${1:e}, ${2:base})",
+            "trigger": "tonumber()"
+        },
+        {
+            "contents": "tostring(${1:e})",
+            "trigger": "tostring()"
+        },
+        {
+            "contents": "type(${1:v})",
+            "trigger": "type()"
+        },
+        {
+            "contents": "string.lower(\"${1:string}\")",
+            "trigger": "string.lower()"
+        },
+        {
+            "contents": "string.len(\"${1:string}\")",
+            "trigger": "string.len()"
+        },
+        {
+            "contents": "string.reverse(\"${1:string}\")",
+            "trigger": "string.reverse()"
+        },
+        {
+            "contents": "string.upper(\"${1:string}\")",
+            "trigger": "string.upper()"
+        },
+        {
+            "contents": "string.byte(\"${1:string}\", ${2:i}, ${3:j})",
+            "trigger": "string.byte()"
+        },
+        {
+            "contents": "string.char(${1:srg1}, ${2:arg2})",
+            "trigger": "string.char()"
+        },
+        {
+            "contents": "string.find(\"${1:string}\", \"${2:pattern}\", ${3:init}, ${4:Bool})",
+            "trigger": "string.find()"
+        },
+        {
+            "contents": "string.gmatch(\"${1:string}\", \"${2:pattern}\")",
+            "trigger": "string.gmatch()"
+        },
+        {
+            "contents": "string.gsub(\"${1:string}\", \"${2:pattern}\", ${3:replace}, ${4:numberOfOccurences})",
+            "trigger": "string.gsub()"
+        },
+        {
+            "contents": "string.match(\"${1:string}\", \"${2:pattern}\", ${3:init})",
+            "trigger": "string.match()"
+        },
+        {
+            "contents": "string.format(\"${1:formatString}\", ${2:....})",
+            "trigger": "string.format()"
+        },
+        {
+            "contents": "string.rep(\"${1:string}\", ${2:number})",
+            "trigger": "string.rep()"
+        },
+        {
+            "contents": "string.gsub(\"${1:string}\", ${2:indexStart}, ${3:indexEnd})",
+            "trigger": "string.gsub()"
+        },
+
+        {
+            "contents": "transition.cancel(${1:tween})",
+            "trigger": "transition.cancel()"
+        },
+        {
+            "contents": "transition.dissolve(${1:startObf}, ${2:endObj}, ${3:duration}, ${4:delay})",
+            "trigger": "transition.dissolve()"
+        },
+        {
+            "contents": "transition.from(${1:target}, ${2:params})",
+            "trigger": "transition.from()"
+        },
+        {
+            "contents": "transition.to(${1:target}, { x = ${2:xPos}, y = ${3:yPos}, time = ${4:time}, delay = ${5:time}, alpha =  ${6:value},  onComplete = ${7:listener} })",
+            "trigger": "transition.to()"
+        },
+        {
+            "contents": "physics.addBody(${1:object},\"${2:static, dynamic, kinematic}\", {density = ${3:value}, friction = ${4:value}, bounce = ${5:value}, radius = ${6:radius}})",
+            "trigger": "physics.addBody(circleShape)"
+        },
+        {
+            "contents": "physics.addBody(${1:object},\"${2:static, dynamic, kinematic}\", {density = ${3:value}, friction = ${4:value}, bounce = ${5:value}, shape = ${6:shape}})",
+            "trigger": "physics.addBody(other)"
+        },
+        {
+            "contents": "physics.newJoint(\"${1:jointType}\",${2:object1}, ${3:object2}, ${4:anchorX}, ${5:anchorY})",
+            "trigger": "physics.newJoint()"
+        },
+        {
+            "contents": "physics.getGravity($0)",
+            "trigger": "physics.getGravity()"
+        },
+        {
+            "contents": "physics.pause($0)",
+            "trigger": "physics.pause()"
+        },
+        {
+            "contents": "physics.removeBody(${1:bodyName})",
+            "trigger": "physics.removeBody()"
+        },
+        {
+            "contents": "physics.setDrawMode(\"${1:debug, hybrid, normal}\")",
+            "trigger": "physics.setDrawMode()"
+        },
+        {
+            "contents": "physics.setGravity(${1:gravityX}, ${2:gravityY})",
+            "trigger": "physics.setGravity()"
+        },
+        {
+            "contents": "physics.setPositionIterations(${1:value})",
+            "trigger": "physics.setPositionIterations()"
+        },
+        {
+            "contents": "physics.setScale(${1:value})",
+            "trigger": "physics.setScale()"
+        },
+        {
+            "contents": "physics.setVelocityIterations(${1:value})",
+            "trigger": "physics.setVelocityIterations()"
+        },
+        {
+            "contents": "physics.start(${1:BOOL})",
+            "trigger": "physics.start()"
+        },
+        {
+            "contents": "physics.stop($0)",
+            "trigger": "physics.stop()"
+        },
+        {
+            "contents": "stage:setFocus(${1:displayObject})",
+            "trigger": "stage:setFocus()"
+        },
+        {
+            "contents": "system.getInfo(\"${1:name, deviceID, enviroment, platformName, platformVersion, version, build, textureMemoryUsed, maxTextureSize, architectureInfo}\")",
+            "trigger": "system.getInfo()"
+        },
+        {
+            "contents": "system.getPreference(\"${1:ui, locale}\", \"${2:country, identifier, language}\")",
+            "trigger": "system.getPreference()"
+        },
+        {
+            "contents": "system.getTimer($0)",
+            "trigger": "system.getTimer()"
+        },
+        {
+            "contents": "system.openURL(\"${1:url}\")",
+            "trigger": "system.openURL()"
+        },
+        {
+            "contents": "system.pathForFile(\"${1:fileName}\", ${2:path})",
+            "trigger": "system.pathForFile()"
+        },
+        {
+            "contents": "system.setAccelerometerInterval(${1:frequency})",
+            "trigger": "system.setAccelerometerInterval()"
+        },
+        {
+            "contents": "system.setIdleTimer(${1:BOOL})",
+            "trigger": "system.setIdleTimer()"
+        },
+        {
+            "contents": "system.setLocationAccuracy(${1:distance})",
+            "trigger": "system.setLocationAccuracy()"
+        },
+        {
+            "contents": "system.setLocationThreshold(${1:distance})",
+            "trigger": "system.setLocationThreshold()"
+        },
+        {
+            "contents": "system.DocumentsDirectory",
+            "trigger": "system.DocumentsDirectory"
+        },
+        {
+            "contents": "system.ResourceDirectory",
+            "trigger": "system.ResourceDirectory"
+        },    
+        {
+            "contents": "system.TemporaryDirectory",
+            "trigger": "system.TemporaryDirectory"
+        },
+        {
+            "contents": "system.activate(\"${1:multitouch}\")",
+            "trigger": "system.activate()"
+        }, 
+        {
+            "contents": "system.orientation",
+            "trigger": "system.orientation"
+        },
+        {
+            "contents": "system.vibrate()",
+            "trigger": "system.vibrate()"
+        },
+        {
+            "contents": "system.setGyroscopeInterval(${1:frequency})",
+            "trigger": "system.setGyroscopeInterval()"
+        },
+        {
+            "contents": "system.hasEventSource(\"${1:gyroscope, accelerometer}\")",
+            "trigger": "system.hasEventSource()"
+        },
+        {
+            "contents": "system.scheduleNotification(${1:secondsFromNow or coordinatedUniversalTime}, ${2:optionsTable})",
+            "trigger": "system.scheduleNotification()"
+        },
+        {
+            "contents": "system.cancelNotification(${1: notificationsID})",
+            "trigger": "system.cancelNotification()"
+        },
+        {
+            "contents": "system.setLocationThreshold(${1: distanceInMeters})",
+            "trigger": "system.setLocationThreshold()"
+        },
+        {
+            "contents": "play{ startFrame = ${1:frame}, endFrame = ${2:frame}, loop = ${3:loop}, remove = ${4:BOOL} }",
+            "trigger": "play{}"
+        },
+        {
+            "contents": "reverse{ startFrame = ${1:frame}, endFrame = ${2:frame}, loop = ${3:loop}, remove = ${4:BOOL} }",
+            "trigger": "reverse{}"
+        },
+        {
+            "contents": "setLabels{ frameLabel1 = ${1:num1}, frameLabel2 = ${2:num2}, frameLabelN = ${3:numN}}",
+            "trigger": "setLabels{}"
+        },
+        {
+            "contents": "spriteInstance.timeScale = ${1:value}",
+            "trigger": "spriteInstance.timeScale"
+        },
+        {
+            "contents": "spriteInstance.animating",
+            "trigger": "spriteInstance.animating"
+        },
+        {
+            "contents": "spriteInstance.currentFrame = ${1:value}",
+            "trigger": "spriteInstance.currentFrame"
+        },
+        {
+            "contents": "spriteInstance.sequence",
+            "trigger": "spriteInstance.sequence"
+        },
+        {
+            "contents": "spriteInstance:addListener(${1:listener})",
+            "trigger": "spriteInstance:addListener()"
+        },
+        {
+            "contents": "spriteInstance:pause($0)",
+            "trigger": "spriteInstance:pause()"
+        },
+        {
+            "contents": "spriteInstance:play($0)",
+            "trigger": "spriteInstance:play()"
+        },
+        {
+            "contents": "spriteInstance:prepare(\"${1:sequence}\")",
+            "trigger": "spriteInstance:prepare()"
+        },
+        {
+            "contents": "spriteSheet:dispose($0)",
+            "trigger": "spriteSheet:dispose()"
+        },
+        {
+            "contents": "sprite.add(${1:spriteSet}, \"${2:sequenceName}\", ${3:startFrame}, ${4:frameCount}, ${5:time}, ${6:loop})",
+            "trigger": "sprite.add()"
+        },
+        {
+            "contents": "sprite.newSpriteSet(${1:spriteSheet}, ${2:startFrame}, ${3:frameCount})",
+            "trigger": "sprite.newSpriteSet()"
+        },
+        {
+            "contents": "sprite.newSpriteSheet(\"${1:spriteSheetFile}\", ${2:baseDir}, ${3:frameWidth}, ${4:frameHeight})",
+            "trigger": "sprite.newSpriteSheet()"
+        },
+        {
+            "contents": "sprite.newSpriteSheetFromData(\"${1:spriteSheetImageFile}\", ${2:baseDir}, ${3:coordinateData})",
+            "trigger": "sprite.newSpriteSheetFromData()"
+        },
+        {
+            "contents": "sprite.newSpriteMultiSet({{ sheet = ${1:sheetName}, frames = {${2:n1}, ${3:n2}, ${4:nx} } }, })",
+            "trigger": "sprite.newSpriteMultiSet()"
+        },
+        {
+            "contents": "timer.cancel(${1:timerName})",
+            "trigger": "timer.cancel()"
+        },
+        {
+            "contents": "timer.pause(${1:timerName})",
+            "trigger": "timer.pause()"
+        },
+        {
+            "contents": "timer.resume(${1:timerName})",
+            "trigger": "timer.resume()"
+        },
+        {
+            "contents": "timer.performWithDelay(${1:delay}, ${2:listener}, ${3:iterations})",
+            "trigger": "timer.performWithDelay()"
+        },
+        {
+            "contents": "store.canMakePurchases",
+            "trigger": "store.canMakePurchases"
+        },
+        {
+            "contents": "store.finishTransaction(${1:transaction})",
+            "trigger": "store.finishTransaction()"
+        },
+        {
+            "contents": "store.init(${1:listener})",
+            "trigger": "store.init()"
+        },
+        {
+            "contents": "store.loadProducts(${1:productsTable}, ${2:listener})",
+            "trigger": "store.loadProducts()"
+        },
+        {
+            "contents": "productsTable = { \"${1:product1}\", \"${1:product2}\"",
+            "trigger": "productsTable = {}"
+        },
+        {
+            "contents": "store.purchase(${1:productArray})",
+            "trigger": "store.purchase()"
+        },
+        {
+            "contents": "store.restore($0)",
+            "trigger": "store.restore()"
+        },
+        {
+            "contents": "storyboard.newScene($0)",
+            "trigger": "storyboard.newScene()"
+        },
+        {
+            "contents": "storyboard.gotoScene(${1:showActivityIndicatorBOOL}, \"${2:sceneName}\", \"${3:effect}\", ${4:effectTimeInMS})",
+            "trigger": "storyboard.gotoScene()"
+        },
+        {
+            "contents": "storyboard.purgeScene(\"${1:sceneName}\")",
+            "trigger": "storyboard.purgeScene()"
+        },
+        {
+            "contents": "storyboard.removeScene(\"${1:sceneName}\")",
+            "trigger": "storyboard.removeScene()"
+        },
+        {
+            "contents": "storyboard.getPrevious($0)",
+            "trigger": "storyboard.getPrevious()"
+        },
+        {
+            "contents": "storyboard.getScene(\"${1:sceneName}\")",
+            "trigger": "storyboard.getScene()"
+        },
+        {
+            "contents": "storyboard.purgeAll($0)",
+            "trigger": "storyboard.purgeAll()"
+        },
+        {
+            "contents": "storyboard.removeAll($0)",
+            "trigger": "storyboard.removeAll()"
+        },
+
+        {
+            "contents": "storyboard.reloadScene($0)",
+            "trigger": "storyboard.reloadScene()"
+        },
+        {
+            "contents": "storyboard.getCurrentSceneName($0)",
+            "trigger": "storyboard.getCurrentSceneName()"
+        },
+        {
+            "contents": "storyboard.disableAutoPurge(${1:BOOL})",
+            "trigger": "storyboard.disableAutoPurge()"
+        },
+        {
+            "contents": "storyboard.isDebug(${1:BOOL})",
+            "trigger": "storyboard.isDebug()"
+        },
+        {
+            "contents": "storyboard.purgeOnSceneChange(${1:BOOL})",
+            "trigger": "storyboard.purgeOnSceneChange()"
+        },
+        {
+            "contents": "storyboard.printMemUsage",
+            "trigger": "storyboard.printMemUsage"
+        },
+        {
+            "contents": "storyboard.loadScene(\"${1:sceneName}\",${2:doNotLoadView})",
+            "trigger": "storyboard.loadScene()"
+        },
+        {
+            "contents": "storyboard.showOverlay(\"${1:sceneName}\")",
+            "trigger": "storyboard.showOverlay()"
+        },
+        {
+            "contents": "storyboard.hideOverlay(\"${1:sceneName}\")",
+            "trigger": "storyboard.hideOverlay()"
+        },
+        {
+            "contents": "buttonOptions = {}",
+            "trigger": "buttonOptions = {}"
+        },
+        {
+            "contents": "sliderOptions = {}",
+            "trigger": "sliderOptions = {}"
+        },
+        {
+            "contents": "tabBarOptions = {}",
+            "trigger": "tabBarOptions = {}"
+        },
+        {
+            "contents": "scrollViewOptions = {}",
+            "trigger": "scrollViewOptions = {}"
+        },
+        {
+            "contents": "pickerWheelOptions = {}",
+            "trigger": "pickerWheelOptions = {}"
+        },
+        {
+            "contents": "tableViewOptions = {}",
+            "trigger": "tableViewOptions = {}"
+        },
+        {
+            "contents": "widget.setTheme(\"${1:themeFileName}\")",
+            "trigger": "widget.setTheme()"
+        },
+        {
+            "contents": "widget.newSlider(${1:optionsTable})",
+            "trigger": "widget.newSlider()"
+        },
+        {
+            "contents": "widget.newScrollView(${1:optionsTable})",
+            "trigger": "widget.newScrollView()"
+        },
+        {
+            "contents": "widget.newTableView(${1:optionsTable})",
+            "trigger": "widget.newTableView()"
+        },
+        {
+            "contents": "widget.newPickerWheel(${1:optionsTable})",
+            "trigger": "widget.newPickerWheel()"
+        },
+        {
+            "contents": "widget.newTabBar(${1:optionsTable})",
+            "trigger": "widget.newTabBar()"
+        },
+        {
+            "contents": "widget.newButton(${1:optionsTable})",
+            "trigger": "widget.newButton()"
+        },
+        {
+            "contents": "widget.newTabBar{ width = ${1:width}, height = ${2:height}, top = ${3:yPos}, left = ${4:xPos}, background = \"${5:imageName}\", buttons = ${6:buttonsTable}}",
+            "trigger": "widget.newTabBar{}"
+        },
+        {
+            "contents": "widget.newButton{ id = \"${1:id}\", default = \"${2:image}\", over = \"${3:image}\", width = ${4:width}, height = ${5:height}, left = ${6:xPos}, top = ${7:yPos}, label = \"${8:text}\", labelColor = { default = {${9:red}, ${10:green}, ${11:blue}, ${12:alpha}}, over = {${13:red}, ${14:green}, ${15:blue}, ${16:alpha}}, font = \"${17:fontName}\", size = ${18:fontSize}, emboss = ${19:BOOL}, onRelease = ${20:listener} }",
+            "trigger": "widget.newButton{}"
+        },
+        {
+            "contents": "widget.newSlider{}",
+            "trigger": "widget.newSlider{}"
+        },
+        {
+            "contents": "widget.newScrollView{}",
+            "trigger": "widget.newScrollView{}"
+        },
+        {
+            "contents": "widget.newTableView{}",
+            "trigger": "widget.newTableView{}"
+        },
+        {
+            "contents": "widget.newPickerWheel{}",
+            "trigger": "widget.newPickerWheel{}"
+        },
+        {
+            "contents": "openfeint.init(\"${1:productKey}\", \"${2:productSecret}\", \"${3:displayName}\", \"${4:appID}\")",
+            "trigger": "openfeint.init()"
+        },
+        {
+            "contents": "openfeint.downloadBlob(\"${1:blobKey}\",${2:listener})",
+            "trigger": "openfeint.downloadBlob()"
+        },
+        {
+            "contents": "openfeint.launchDashboard(\"${1:dashBoardView}\")",
+            "trigger": "openfeint.launchDashboard()"
+        },
+        {
+            "contents": "openfeint.launchDashboard(\"${1:dashBoardView}\",${2:options})",
+            "trigger": "openfeint.launchDashboard(withOptions)"
+        },
+        {
+            "contents": "openfeint.setHighScore( {leaderboardID = \"${1:ID}\", score = ${2:score}, displayText = \"${3:text}\"})",
+            "trigger": "openfeint.setHighScore()"
+        },
+        {
+            "contents": "openfeint.unlockAchievement(\"${1:achievementID}\")",
+            "trigger": "openfeint.unlockAchievement()"
+        },
+        {
+            "contents": "openfeint.uploadBlob(\"${1:blobKey}\", \"${2:blobData}\")",
+            "trigger": "openfeint.uploadBlob()"
+        },
+        {
+            "contents": "gameNetwork.init(\"openfeint\", \"${1:productKey}\", \"${2:secret}\", \"${3:displayName}\", \"${4:appID}\")",
+            "trigger": "gameNetwork.init(openfeint)"
+        },
+        {
+            "contents": "gameNetwork.init(\"papaya\", \"${1:papayaSocialKey}\")",
+            "trigger": "gameNetwork.init(papaya)"
+        },
+        {
+            "contents": "gameNetwork.init(\"gamecenter\", { listener = ${2:callBack} })",
+            "trigger": "gameNetwork.init(gamecenter)"
+        },
+        {
+            "contents": "gameNetwork.request(\"${1:command}\", ${2:params})",
+            "trigger": "gameNetwork.request()"
+        },
+        {
+            "contents": "gameNetwork.show(\"${1:name}\", \"${2:data}\")",
+            "trigger": "gameNetwork.show()"
+        }
+    ], 
+    "scope": "source.lua"
+}
+
+
+
+
+
+
+
+
+
+

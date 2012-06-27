@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>display.newRoundedRect( ${1:[parentGroup], }${2:left}, ${3:top}, ${4:width}, ${5:height}, ${6:cornerRadius} )</string>
+	<key>name</key>
+	<string>display.newRoundedRect</string>
+	<key>scope</key>
+	<string>source.lua</string>
+	<key>tabTrigger</key>
+	<string>display.newRoundedRect</string>
+	<key>uuid</key>
+	<string>ED6354A9-3E38-482B-9E40-033FA368EFA4</string>
+</dict>
+</plist>
