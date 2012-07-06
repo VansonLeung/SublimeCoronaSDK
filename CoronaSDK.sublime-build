@@ -1,6 +1,6 @@
 {
-"cmd": ["/Applications/DevTools/CoronaSDK/simulator","$file_path"],
+"cmd": ["/Applications/DevTools/CoronaSDK/simulator","$file"],
 "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
 "working_dir": "${project_path:${folder}}",
-"selector": "main.lua"
+"selector": "source.lua"
 }
